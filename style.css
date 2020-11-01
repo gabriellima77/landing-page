@@ -136,8 +136,7 @@ strong {
 }
 
 .card .text {
-    overflow: hidden;
-    width: 60%;
+    min-width: 60%;
     height: 48%;
     text-align: center;
     margin-bottom: 20px;
@@ -218,6 +217,7 @@ footer {
 
     #header-img {
         width: 32px;
+        align-self: center;
     }
     
     #name {
